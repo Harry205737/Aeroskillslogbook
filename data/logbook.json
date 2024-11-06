@@ -1,1 +1,12 @@
-
+[
+  {
+    "date": "2024-11-01",
+    "activity": "Studied wiring and circuits",
+    "hours": 3
+  },
+  {
+    "date": "2024-11-02",
+    "activity": "Hands-on welding practice",
+    "hours": 4
+  }
+]
