@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade School Logbook</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Trade School Logbook</h1>
+  <div id="logbook-entries"></div>
+  <button onclick="showEntryForm()">Add New Entry</button>
+  
+  <div id="entry-form" style="display: none;">
+    <h2>New Logbook Entry</h2>
+    <label for="date">Date:</label>
+    <input type="date" id="date">
+    <label for="activity">Activity:</label>
+    <input type="text" id="activity">
+    <label for="hours">Hours:</label>
+    <input type="number" id="hours">
+    <button onclick="addEntry()">Submit</button>
+  </div>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
