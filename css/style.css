@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+
+.entry {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#entry-form {
+  margin-top: 20px;
+}
